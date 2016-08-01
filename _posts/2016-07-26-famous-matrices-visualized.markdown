@@ -7,7 +7,7 @@ categories: octave math
 
 Hello World!
 
-I started playing around with Octave a little while ago while taking a course on [machine learning](https://www.coursera.org/learn/machine-learning/)(highly recommend). There was a function I found really cool called magic(n) which would generate(or look up) an n by n matrix that would satisfy this condition:
+I started playing around with Octave a little while ago while taking a course on [machine learning](https://www.coursera.org/learn/machine-learning/)(highly recommend). There was a function I found really cool called magic(n) which generates(or looks up) an n by n matrix that would satisfy this condition:
 
 - All Rows, Columns, and Diagonals add up to the same value.
 
