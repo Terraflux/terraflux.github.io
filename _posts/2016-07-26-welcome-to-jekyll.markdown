@@ -1,14 +1,22 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2016-07-26 16:35:10 -0400
-categories: jekyll update
+title:  "Famous Matrices Visualized"
+date:   2016-08-1 16:35:10 -0400
+categories: octave math
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+Hello World!
 
-Jekyll also offers powerful support for code snippets:
+I started playing around with Octave a little while ago while taking a course on [machine learning](https://www.coursera.org/learn/machine-learning/)(highly recommend). There was a function called magic(n) which would generate(or look up) an n by n matrix that would satisfy this condition:
+
+*All Rows, Columns, and Diagonals add up to the same value.
+
+If this sounds like sudoku, its because it is! Magic squares have been around for a long time, often as symbols of superstition or.. well, magic. So what does a 3x3 magic square look like?
+
+It's worth noting that there are only 8 possible 3x3 magic squares, and they are all reflections or rotations of this one, also known as the ["Lo Shu Square"](https://en.wikipedia.org/wiki/Lo_Shu_Square).
+
+
+
 
 {% highlight ruby %}
 def print_hi(name)
@@ -17,9 +25,3 @@ end
 print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 {% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
