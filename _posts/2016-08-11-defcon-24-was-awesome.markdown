@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "Defcon24 Was Amazing"
+date:   2016-08-11 16:35:10 -0400
+categories: Defcon
+---
+
+Okay! My first time to the mighty [DEFCON](https://www.defcon.org/) has left me with a profound respect and admiration for all the folks that organize and also attend it. My favorite aspect of the experience was probably the [badge challenge](http://co9.io/post/148716614744/defcon-24-badge-challenge). Every year there's an extremely involved puzzle sorrounding this hardware that hangs around your neck at all times. Solving it gets you in to every future defcon for free, and nets you enormous street cred in the process. The coolest part other than testing your own hypotheses was talking to others who would congregate in a particular room to discuss and collaborate on aspects of the challenge. It was a really awesome experience to see everybody's different approaches and discoveries happening in real time! After reading some of the [writeups](http://potatohatsecurity.tumblr.com/post/126411303994/defcon-23-badge-challenge) of [last years'](http://potatohatsecurity.tumblr.com/post/94565729529/defcon-22-badge-challenge-walkthrough) challenges... I might have thrown in the towel, but I still had a blast.
+
+![badge]({{ site.url }}/assets/badge.png)
+
+I saw a few talks, but the one I enjoyed most was on Bluetooth lock hacking, in which Anthony Rose discovered vulnerabilities on most major smartlock innovations that would render them inoperable or lock the user out. A [hackaday](http://hackaday.com/2016/08/08/the-terrible-security-of-bluetooth-locks/) article covers the basis of it, but I do have the PDFs from his talk I could make available.
+
+The villages were always lively with people attempting to get into things or just tinkering around. Internet of Things was full of people competing for their CTF event of trying to get into as many wireless devices as possible, which was cool to participate in and watch. Social Engineering had a line almost every day for people to watch smart sounding individuals attempt to extract vital company information in a private phone booth, no pictures allowed. I saw a few calls that went well and a few calls that went sour, and either way it was hilarious.
+
+And of course... the swag:
+
+![swag]({{ site.url }}/assets/swag.png)
+
+Whats next will be a writeup on some of these toys I've acquired once I'm more well acquainted with them.
