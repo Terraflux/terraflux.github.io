@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "Famous Matrices: Cauchy"
+date:   2016-08-18 16:35:10 -0400
+categories: Math
+published: false
+---
+
+Round Two! In order to get a little deeper into describing these particular matrices, we will have to maintain definitions for how they are structured. This is how a matrix is defined:
+
+![image]({{ site.url }}/assets/matrix.png)
+
+Here is the definition for a Cauchy Matrix:
+
+$$ {A}\_{i, j} = \frac{1}{x\_{i} - y\_{j}} $$
+
+$$ {x}\_{i} - {y}\_{j} \neq 0 $$
+
+$$ 1 \le {i} \le {m} $$
+
+$$ 1 \le {j} \le {n} $$
