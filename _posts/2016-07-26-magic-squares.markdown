@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Famous Matrices: Magic Squares"
+title:  "Magic Squares"
 date:   2016-08-1 16:35:10 -0400
 categories: octave math
 ---
@@ -10,6 +10,7 @@ Hello World!
 I started playing around with Octave a little while ago while taking a course on [machine learning](https://www.coursera.org/learn/machine-learning/)(highly recommend). There was a really cool function I found called magic(n) which generates an n by n matrix that satisfies this condition:
 
 - All Rows, Columns, and Diagonals add up to the same value.
+- All values in the matrix are distinct
 
 If this sounds like sudoku, its because it is! Magic squares have been around for a long time, often as symbols of superstition or.. well, magic. So what does a 3x3 magic square look like?
 
@@ -31,7 +32,7 @@ It looks like a pattern might be starting to emerge. Here's the sequence of squa
 ![9sc]({{ site.url }}/assets/9sc.png)
 ![10sc]({{ site.url }}/assets/10sc.png)
 
-Several patterns seem to be differentiating in the sequence. Squares whose size is an odd number tend to take on tesselating diagonals, while even squares seem to adopt a checkboard approach. Also worth noting, the highest number required to complete the square increases at exponential time. A magic square of N size requires N^N to be its largest number. This becomes a computational hurdle pretty quickly, at around n=100, the program begins to complain. So here's n=90-92, colorized and along with a new 3d visualization function(surf()):
+Several patterns seem to be differentiating in the sequence. Squares whose size is an odd number tend to take on tesselating diagonals, while even squares seem to adopt a checkboard approach. Also worth noting, the highest number required to complete the square increases at exponential time. A magic square of n size requires n*n to be the largest value. This becomes a computational hurdle pretty quickly, at around n=100, the program begins to complain. So here's n=90-92, colorized and along with a new 3d visualization function "surf", which places the value of the matrix entry on the Z axis and the position of row and column on the X and Y:
 
 
 ![90sc]({{ site.url }}/assets/90sc.png)
@@ -41,6 +42,6 @@ Several patterns seem to be differentiating in the sequence. Squares whose size 
 ![92sc]({{ site.url }}/assets/92sc.png)
 ![92surf]({{ site.url }}/assets/92surf.png)
 
-Neato! Unfortunately, the function returns the same square for each of its calls on the same input so in all likelihood it is some sort of look up table. However I wonder at this point if the patterns and strategies witnessed are more a choice of the function that generated these squares for simplicity, or an implicit constraint about how magic squares can be constructed. If a n=91 could be reconstructed to look like an n=90, or vica versa, then we could be sure(ish) there were no true constraints on magic square construction patterns of arbitrary size.
+Neato! Unfortunately, the function returns the same square for each of its calls on the same input so in all likelihood it is some sort of look up table. However I wonder at this point if the patterns and strategies witnessed are more a choice of the function that generated these squares for simplicity, or an implicit constraint about how magic squares can be constructed. If a n=91 could be reconstructed to look like an n=90, or vica versa, then we could be sure(ish) there were no true constraints on magic square construction patterns of arbitrary size. I would like to try to prove this but I'm not quite sure how to define a method to do so.
 
 At this point, I was ready to say I was done with this little article but then I discovered [this](https://www.gnu.org/software/octave/doc/v4.0.1/Famous-Matrices.html) lovely little function. Soooo I'll be back with more articles! (and matrices)
