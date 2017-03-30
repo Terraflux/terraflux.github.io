@@ -3,6 +3,7 @@ layout: post
 title:  "Magic Squares"
 date:   2016-08-1 16:35:10 -0400
 categories: octave math
+published: false
 ---
 
 Hello World!
