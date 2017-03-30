@@ -3,6 +3,7 @@ layout: post
 title:  "Defcon24"
 date:   2016-08-11 16:35:10 -0400
 categories: Defcon
+published: false
 ---
 
 Okay! My first time to the mighty [DEFCON](https://www.defcon.org/) has left me with a profound respect and admiration for all the folks that organize and also attend it. My favorite aspect of the experience was probably the [badge challenge](http://co9.io/post/148716614744/defcon-24-badge-challenge). Every year there's an extremely involved puzzle sorrounding this hardware that hangs around your neck at all times. Solving it gets you in to every future defcon for free, and nets you enormous street cred in the process. The coolest part other than testing your own hypotheses was talking to others who would congregate in a particular room to discuss and collaborate on aspects of the challenge. It was a really awesome experience to see everybody's different approaches and discoveries happening in real time! After reading some of the [writeups](http://potatohatsecurity.tumblr.com/post/126411303994/defcon-23-badge-challenge) of [last years'](http://potatohatsecurity.tumblr.com/post/94565729529/defcon-22-badge-challenge-walkthrough) challenges... I might have thrown in the towel, but I still had a blast.
