@@ -15,5 +15,5 @@ twitter_username: peddrrrooooo
 github_username: terraflux
 
 # Build settings
-markdown: redcarpet
+markdown: kramdown
 permalink: /blog/:title
